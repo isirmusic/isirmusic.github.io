@@ -1,0 +1,16 @@
+.menu,
+li {
+    float:left;
+    display:block;
+    height:40px;
+    width:40px;
+}
+
+#div1{
+    <p>helllooo<p>
+    }
+#div2{background:#0b0;left:0;}
+#div3{background:#b0b;left:80px;}
+#div4{background:#000;left:120px;}
+
+br {clear:both;}
