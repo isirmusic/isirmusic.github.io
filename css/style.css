@@ -1,7 +1,6 @@
 
 body {
-   margin: 0 5% 0 5%;
-   /*background-color:rgba(0,0,0,0.85)*/
+   /*background-color:rgba(0,0,0,0.85);*/
    background-color:rgba(235, 235, 230, 0.55);
 }
 
@@ -52,6 +51,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  body{
+    margin: 0 3% 0 3%;
+  }
   .soulsister{
     margin-top: 0;
   }
@@ -73,6 +75,10 @@ body {
 
 
 @media (min-width: 769px) and (max-width: 979px) {
+  body{
+    margin: 0 5% 0 5%;
+  }
+
   .soulsister{
     margin-top: 0;
   }
@@ -93,6 +99,9 @@ body {
 }
 
 @media (min-width: 980px) {
+  body{
+    margin: 0 5% 0 5%;
+  }
   .soulsister{
     margin-top: 20%;
   }
