@@ -2,7 +2,8 @@
 body {
    margin: 0 5% 0 5%;
    font-family: 'Open Sans', sans-serif;
-   background-color:rgba(0,0,0,0.85)
+   /*background-color:rgba(0,0,0,0.85)*/
+   background-color:rgba(235, 235, 230, 0.55);
 }
 
 .square{
@@ -28,9 +29,20 @@ body {
 }
 
 .soundcloud iframe {
-  position:absolute;
   width: 100%;
-  height: 100%;
+  height: 350px;
+  left: 0; top: 0;
+}
+
+.featured{
+  width: 100%;
+  height:100px;
+  margin: 1% 0 1% 0;
+}
+
+.featured iframe {
+  width: 100%;
+  height: 100px;
   left: 0; top: 0;
 }
 
