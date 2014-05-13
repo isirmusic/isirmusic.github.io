@@ -128,11 +128,12 @@ filter: gray;
 transition: all 0.2s ease-in-out;
 }
 
-
 .gray:hover {
 filter: none;
 -webkit-filter: grayscale(0%);
 }
+
+/* for jquery */
 
 .active {
   filter: none;
